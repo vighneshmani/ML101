@@ -17,10 +17,10 @@ class SentimentAnalysis:
 
     def DownloadData(self):
 
-        consumerKey = "olD7jKIxvcnbpdtd9SBGmqqeA"
-        consumerSecret = "33eoudaTgfgrsLMYyTyDj786ObUf9DCJsSvK84RNscDth0BweG"
-        accessToken = "1016016867796742145-kO8bRUby0SvA197d1FBjXm1VpJn4Ao"
-        accessTokenSecret = "IncdcuxnYukvpd9vSAzHlql8rs3e2bXPlcCkPjmt0RyCO"
+        consumerKey = "XXXXXXXXXXXXXXXXXX"
+        consumerSecret = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        accessToken = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        accessTokenSecret = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         auth = tweepy.OAuthHandler(consumerKey,consumerSecret)
         auth.set_access_token(accessToken, accessTokenSecret) #set_access_token is a function used to get access token from auth object that we defined
         api = tweepy.API(auth)
