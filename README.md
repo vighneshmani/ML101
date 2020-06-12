@@ -9,9 +9,8 @@ By Vighnesh Mani
 
 ## TWEEPY
 
-Tweepy is a Python library for accessing the Twitter API. It is great for simple automation and creating twitter bots. Tweepy has many features.
+Tweepy is a Python library for accessing the Twitter API. It is great for simple automation and creating twitter bots. Tweepy has many features like:
 
-In this tutorial we will be covering:
 
 * Get tweets from our timeline.
 * Creating and deleting Tweets.
